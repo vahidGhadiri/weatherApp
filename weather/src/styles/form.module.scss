@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cell {
+      margin: 0 5px;
+
+      input {
+        border: 1px solid #ed969e;
+      }
+    }
+  }
+}
